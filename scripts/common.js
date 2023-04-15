@@ -683,15 +683,15 @@ $(document).ready(function () {
         $('#top_sort').css('visibility', 'visible');
         $('#top_sort #year').select2({
             width: '170px', formatNoMatches: function () {
-                return "Не найдено";
-            }, placeholder: "Все года"
+                return "ГЌГҐ Г­Г Г©Г¤ГҐГ­Г®";
+            }, placeholder: "Г‚Г±ГҐ ГЈГ®Г¤Г "
 
         });
 
         $('#top_sort #genre').select2({
             width: '190px', formatNoMatches: function () {
-                return "Не найдено";
-            }, placeholder: "Все жанры"
+                return "ГЌГҐ Г­Г Г©Г¤ГҐГ­Г®";
+            }, placeholder: "Г‚Г±ГҐ Г¦Г Г­Г°Г»"
         });
 
         $('#top_sort #sort').select2({
